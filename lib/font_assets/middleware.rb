@@ -15,7 +15,7 @@ module FontAssets
       {
         "Access-Control-Allow-Origin" => origin,
         "Access-Control-Allow-Methods" => "GET",
-        "Access-Control-Allow-Headers" => "x-requested-with",
+        "Access-Control-Allow-Headers" => "Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,Keep-Alive,X-Requested-With,If-Modified-Since",
         "Access-Control-Max-Age" => "3628800"
       }
     end
